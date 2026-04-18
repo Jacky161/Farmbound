@@ -41,6 +41,7 @@ This project is licensed under the MIT license with some notable exceptions as f
 
 - [source/code/helpers/worldloader.lua](source/code/helpers/worldloader.lua) is licensed under the BSD Zero Clause License. This is heavily modified from `Examples/Level 1-1/Source/levelLoader.lua` file in the Playdate SDK. See the file for more details on the license.
 - [source/libraries/pulp-audio/pulp-audio.lua](source/libraries/pulp-audio/pulp-audio.lua) is obtained from the [Pulp editor](https://play.date/pulp) to use Pulp Music & SFX in lua games. I am not aware of the license for this file.
-- The player sprites is obtained from [Mystic Woods by Game Endeavor](https://game-endeavor.itch.io/mystic-woods)
+- The player sprites are obtained from [Mystic Woods by Game Endeavor](https://game-endeavor.itch.io/mystic-woods)
+- The undead sprite is obtained from [16x16 Dungeon Tileset by 0x72](https://0x72.itch.io/16x16-dungeon-tileset)
 - The paths, and nature sprites are obtained from [Bountiful Bits by VEXED](https://v3x3d.itch.io/bountiful-bits)
 - The house on the farm is not created by me. The original source appears to be gone, but if you are the original author, please feel free to reach out so you can be credited.
