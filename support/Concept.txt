@@ -1,0 +1,41 @@
+Concept:
+A farming sim game inspired by the likes of Stardew Valley and the Harvest Moon/Story of Seasons franchise. You've been kidnapped by an unknown alien captor and sent to a strange planet to farm and make money for them. Your goal is to survive as long as possible with the captors setting production targets for you to reach, or else... Each day, you need to meet the target. The captors may also set challenges for you (ex. perform a specific action like mining or don't do a specific action in that day)
+
+The crank can be used throughout the game. Here are a bunch of my current ideas. May not implement all of these, but this is my current brainstorm:
+- Fishing is an obvious one.
+- A hose can be aimed with the crank. The direction you pick the hose up in is the direction that you face (ex. east) and then you tilt it up and down with the crank.
+- Either a cooking mechanic, or some way to process your crops that involves the crank
+- Mining with a drill using the crank?
+- Animals (milking cows, etc)
+
+Map Design:
+
+The map will consist of:
+
+- Player's Farm
+- Town square / market
+- Mine
+
+Either:
+- Lake / River to fish?
+OR
+- A port to set sail from
+    - The player can fish while at sea or we could also have some treasure hunting mechanic?
+
+Technical Design:
+
+Ideally, the code is designed in such a way where it is easy to expand and improve upon. I designed to plan a bit of the object oriented design before starting to write code:
+
+class Player:
+- Has an inventory
+- Currently held item
+
+class Area:
+
+class Farm:
+
+class Renderer:
+- In charge of rendering areas
+
+class Item:
+-

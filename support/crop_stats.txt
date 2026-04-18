@@ -1,0 +1,31 @@
+carrots - 3 days
+purchase_price = 20
+sell_price = 50
+---
+profit = 30
+ppd = 10
+
+
+potatos - 5 days
+purchase_price = 40
+sell_price = 100
+---
+profit = 60
+ppd = 12
+
+
+corn - 7 days
+purchase_price = 70
+sell_price = 175
+---
+profit = 105
+ppd = 15
+
+
+
+strawberry - 8 days
+purchase_price = 90
+sell_price = 200
+---
+profit = 110
+ppd = 15
