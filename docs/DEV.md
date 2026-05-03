@@ -8,6 +8,7 @@ From spending a few months working on Farmbound, I've learned quite a number of 
 - [VSCode Setup](#vscode-setup)
 - [Project Organisation](#project-organisation)
 - [Sprites](#sprites)
+- [Timers](#timers)
 - [Level Editors](#level-editors)
 - [Playdate Simulator and the Playdate Console](#playdate-simulator-and-the-playdate-console)
 
@@ -150,6 +151,9 @@ All coordinates inside the draw function are relative to the sprite's top left c
 
 The draw function has the signature `draw(x, y, width, height)`. According to the Playdate SDK documentation, "The rect passed in is the current dirty rect being updated by the display list." In practice, these arguments are not very useful and can be ignored.
 
+## Timers
+
+Timers are extremely useful for handling animations or anything that needs to occur after a delay. You can have value timers with a specific start value, end value, and interval. The timer will increment the value from start to end over that interval. This is useful for animations such as the fishing powerbar in my game, as well as the fade in/out on day transitions. You can also set the timer to reverse from end to start, as well as repeat indefinitely. Timers can even call functions after ending, as well as on every update. See `source/code/ui/effects/effect_auto_powerbar.lua` for a simple example.
 
 ## Level Editors
 
