@@ -2,7 +2,7 @@
 
 [<img src="assets/itchiocover.png" width="40%" alt="Farmbound Cover Image">](https://jacky161.itch.io/farmbound)
 
-[<img src="https://static.itch.io/images/badge.svg" width="20%" alt="Available on itch.io">](https://jacky161.itch.io/farmbound)
+[<img src="assets/itchiobadge.svg" width="20%" alt="Available on itch.io">](https://jacky161.itch.io/farmbound)
 
 Farmbound is a farming simulation game developed for the Playdate console. Inspired by Stardew Valley and the Harvest Moon / Story of Seasons franchise. Farmbound was designed and developed solo over the course of two months, including getting accustomed to a new language (Lua) and the Playdate, a bespoke and technically constrained platform.
 
